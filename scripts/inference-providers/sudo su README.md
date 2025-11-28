@@ -1,4 +1,4 @@
-Install dependencies.
+sudo su Install dependencies.
 
 ```sh
 pnpm install
