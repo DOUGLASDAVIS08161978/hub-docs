@@ -1,0 +1,55 @@
+{
+  "bridge_type": "Bitcoin to Ethereum (WBTC-style)",
+  "timestamp": "2026-01-04T07:12:19.317642",
+  "source": {
+    "chain": "Bitcoin (regtest)",
+    "address": "bcrt1qv70q00xs5g668wevsh78vq6a75dnh24kgcw99w",
+    "txid": "0x8b7f2d0ebe0ed7c3b8135c1cd0640234adbe339abe15b85b579d223f59468dec"
+  },
+  "destination": {
+    "chain": "Ethereum",
+    "address": "0x24f6b1ce11c57d40b542f91ac85fa9eb61f78771",
+    "txid": "0xb18ecafe320034f03fa7cf4da69074c9b8e7037f98b2ed7c569a4cb48eb445a4",
+    "contract": "0x2260FAC5E5542a773Aa44fBcFeDf7C193bc2C599"
+  },
+  "amount": {
+    "btc_locked": 1000.0,
+    "wbtc_minted": 1000.0
+  },
+  "deposit": {
+    "deposit_id": "479a82a4009987b9a32275e445d32a27aa9e6d2de4c92786dd63d7cbed13223e",
+    "from_btc_address": "bcrt1qv70q00xs5g668wevsh78vq6a75dnh24kgcw99w",
+    "to_bridge_address": "bcrt1qbridge000000000000000000000000bridge",
+    "amount_btc": 1000.0,
+    "btc_txid": "0x8b7f2d0ebe0ed7c3b8135c1cd0640234adbe339abe15b85b579d223f59468dec",
+    "timestamp": "2026-01-04T07:12:17.011517",
+    "status": "confirmed",
+    "confirmations": 6
+  },
+  "mint": {
+    "mint_id": "320dfe54f17544cf0d9e9e603924cbb9ade83e17771b0ed3c7d2c15262313510",
+    "deposit_id": "479a82a4009987b9a32275e445d32a27aa9e6d2de4c92786dd63d7cbed13223e",
+    "eth_txid": "0xb18ecafe320034f03fa7cf4da69074c9b8e7037f98b2ed7c569a4cb48eb445a4",
+    "contract_address": "0x2260FAC5E5542a773Aa44fBcFeDf7C193bc2C599",
+    "recipient": "0x24f6b1ce11c57d40b542f91ac85fa9eb61f78771",
+    "amount_wbtc": 1000.0,
+    "timestamp": "2026-01-04T07:12:19.316906",
+    "block_number": 18500000,
+    "gas_used": 65000,
+    "status": "minted"
+  },
+  "stats": {
+    "total_btc_locked": 1000.0,
+    "total_wbtc_minted": 1000.0,
+    "total_deposits": 1,
+    "total_mints": 1,
+    "bridge_ratio": "1:1"
+  },
+  "proof": {
+    "merkle_root": "225c3b220f5379413f1205abddce56de2226cceae54077f5c2c6647afafd38c2",
+    "btc_locked": 1000.0,
+    "wbtc_minted": 1000.0,
+    "proof_valid": true,
+    "timestamp": "2026-01-04T07:12:19.317329"
+  }
+}
